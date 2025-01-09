@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    color: grey;
+}
+
+.topright {
+    text-align: right;
+    justify-content: initial;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input[type="text"] {
+    color: white;
+    border-radius: 95px;
+    border-style: solid;
+    border-color: grey;
+    margin: 25px;
+    padding: 25px;
+
+}
+
+input[type="submit"] {
+    background-color: #2c2c2c;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+}
+
+table, th, td {
+    border-style: none;
+}
